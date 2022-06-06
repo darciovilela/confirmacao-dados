@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirmação de dados</title>
+    <script src="./confirmDados.js"></script>
+  </head>
+  <body>
+    <form onsubmit="return confirmDados(event)">
+      <h1>Preencha e confirme os seus dados</h1>
+      <label for="name">Digite seu nome:</label><br />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        minlength="2"
+        maxlength="25"
+        required
+      /><br /><br />
+      <label for="age">Digite sua idade:</label><br />
+      <input
+        type="number"
+        id="age"
+        name="age"
+        min="1"
+        max="99"
+        required
+      /><br /><br />
+      <label>Sexo:</label><br />
+      <input type="radio" id="gender-m" name="gender" value="male" required />
+      <label for="gender-m">Masculino</label>
+      <input type="radio" id="gender-f" name="gender" value="female" />
+      <label for="gender-f">Feminino</label><br /><br />
+      <button onclick="confirmDados()">submit</button>
+      <hr />
+      <p id="result"></p>
+    </form>
+  </body>
+</html>
