@@ -1,0 +1,52 @@
+body {
+     background-color: rgb(241, 232, 232);
+}
+
+.box {
+    display: flex;
+    background-color: rgb(209, 198, 198);
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    padding: 25px;
+    
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    
+}
+
+form {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+
+button {
+    background-color: rgba(255, 166, 0, 0.857);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px ;
+    border: none;
+    cursor: pointer;
+   
+}
+
+button:hover {
+    background-color: rgba(228, 152, 12, 0.762);
+    
+}
+
+.result {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    margin-top: 40px;
+    color: rgb(11, 148, 32);
+    text-align: center;
+    display: flex;
+    
+}
